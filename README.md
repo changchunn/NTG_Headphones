@@ -12,6 +12,7 @@ Apple的强大勿庸置疑，TWS耳机市场在AirPods出现前不温不火，Ai
 
 ![airpods_sudio](https://i.loli.net/2020/08/21/honkx3WwbzpKt5d.png) </br>
 
+![](https://i.loli.net/2020/08/21/AFkm1jcDo8yaOrW.png)
 
 ### Voice Wake-Up
 在应答阶段‘牢’厂在需求包之外会提出许多其它要求让供应商应答他们再来评估是否要放到需求包中，Voice Wake-Up就是其中之一。收到要求 Knowles‘牢’厂要评估语音唤醒
