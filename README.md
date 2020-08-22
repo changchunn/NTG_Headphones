@@ -28,7 +28,7 @@ Apple的强大勿庸置疑，TWS耳机市场在AirPods出现前不温不火，Ai
 Knowles MEMS microphone业界那是响当当。FAE介绍说 IA610 已经跟BES联调成功，申请参考代码，说是这个调试很麻烦云云, 不愿提供 (我勒个去，这哥们硬气，给不给参考代码是你的事，麻不麻烦那是我的事，哥 !)；申请demo平台，也提供不了，给建议去找 BES 申请。一听要找BES申请demo样机(BES是什么尿性？那基本都是有求无应)，赶紧寻求销售的帮助，无助于事。</br>
 趁着别人还愿意打发你的时机，赶紧了解了一下 IA610 关注的相关特性。
 IA610 是基于关键词的特征值语音识别算法，最多可以植入3段语音，如果是中文3段语音总共不能超过10个字(印象中是这个数据)，唤醒功耗 (识别到关键词唤醒并给出中断信号这整个过程) 大约电流3--4mA, 唤醒后提供一个中断信号给外部系统。</br>
-了解了，告辞!
+了解了，告辞!</br>
 
 ![ia610_current](https://i.loli.net/2020/08/22/oDtdxqERjwp5JU3.png)
 _IA610_Figure1_
@@ -40,8 +40,8 @@ _IA610_Figure2_
 ##### LC823450
 LC823450是音频处理系统LSI，VOA功能仅是它所具备的功能中的一个模块，联系上海FAE在仅支持VOA功能的情况下给出的功耗曲线最低也在1mA左右。
 
-![lc823450_current](https://i.loli.net/2020/08/22/eYWP6tUgqQdlLva.png)
-
+![](https://i.loli.net/2020/08/22/bzTLU4GjKBCaWD8.png)
+</br>
 ##### Belasigna R281
 支持Voice Wake-Up特性的MEMS Microphone; 另一家是OnSemi, 它有两款产品支持Voice Wake-Up, 分别是LC823450t和Belasigna R281。</br>
 
