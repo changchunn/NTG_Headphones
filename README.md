@@ -447,27 +447,27 @@ Re-routing of the C library printf function to the LPUART. The LPUART outputs a 
 
 The LPUART1 is configured as follows:</br>
 -- baudrate = 115200 Baud </br>
--- word length  = 8 bits
+-- word length  = 8 bits </br>
 -- one stop bit </br>
 -- none parity </br>
 -- hardware flow control disabled </br>
 -- reception and transmission are enabled in the time </br>
 
 @para Dirctory *.c Contents </br>
--- L431RBIx_HSE_LPUART_DMA_printf\Src\adc.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\cw2015.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\gpio.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\i2c.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\iqs5xx.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\iqs62x.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\main.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\printf.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\pwrctl.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\stm32l4xx_hal_msp.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\stm32l4xx_it.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\sy6970.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\system_stm32l4xx.c
--- L431RBIx_HSE_LPUART_DMA_printf\Src\usart.c
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\adc.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\cw2015.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\gpio.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\i2c.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\iqs5xx.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\iqs62x.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\main.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\printf.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\pwrctl.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\stm32l4xx_hal_msp.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\stm32l4xx_it.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\sy6970.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\system_stm32l4xx.c </br>
+-- L431RBIx_HSE_LPUART_DMA_printf\Src\usart.c </br>
 
 @para Hardware and Software Environment </br>
 -- This code runs on STM32L431xx devices.</br>
