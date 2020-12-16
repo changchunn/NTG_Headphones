@@ -130,7 +130,7 @@ DSD 解码方案差不多有了，剩下就是音频输出端的 DAC 选型。DA
 _AK4497_BLOCK_DIAGRAM_ </br>
 ![ak4497_block](https://i.loli.net/2020/08/27/EycgLdeqSp5WFsA.png)</br>
 </br>
-_CS43131_BLOCK_DIAGRAM_  
+_CS43131_BLOCK_DIAGRAM_
 ![cs43131_block](https://i.loli.net/2020/08/27/Ppzye9mSaXGUICV.png)
 
 DSD 音频流不带音量信息，而且 DSD 音频流解码输出后会比其它格式的音频音量要低 3dB (印象中是这么多，如果有错麻烦指正)，而且支持 DSD 的硬件线路会很复杂， 。上图如果输入的 DSD 音频流走红圈中的音频路径，就是 native DSD, 否则就是DoP。</br>
@@ -478,11 +478,10 @@ The LPUART1 is configured as follows:</br>
 In order to make the program work, you must do the following: </br>
 -- open your keil uvision toolchain </br>
 -- rebuild all files and load your image into target device </br>
--- run the code </br>   
+-- run the code </br>
 ^_^
 </details>
 
 ***
-postscript>
 
-##Apple Airpods Max
+## Apple AirPods Max
