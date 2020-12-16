@@ -10,7 +10,7 @@ Apple的强大勿庸置疑，TWS 蓝牙耳机市场在 AirPods 出现前不温�
 
 ‘牢’厂的尿性两天一报告，三天一汇报，每周一例会，时不时的给你整个额外的啥需求，有时深更半夜拉你电话会议，公司内部每周还有项目例会，项目会议，每周这些屁事搞完，就剩不了几个时间。感觉就是写不完的PPT，画不完的流程图，加上项目工程师均不给力，一浆糊，跟‘牢’厂例会都整不明白需求是什么要做什么应对， 看他们写的项目报告，要气得胸疼，两只都疼，只能将就着每次例会前帮项目完成软件部分的报告，然后项目 CTRL + C / CTRL + V，三不五时回个邮件你还得帮忙拿主意，搬砖的给直接干成项目管理了。</br>
 ***
-## 技术规格
+## Specifications
 <details> </br>
 
 ![huawei_ntg](https://i.loli.net/2020/08/21/SdwEUAFBezZvaf7.png)</br>
@@ -326,7 +326,7 @@ app 是当前在运行的应用程序， app1 和 app2 用来交替存储云端�
 </details>
 
 
-## 系统设计
+## System Design
 <details> </br>
 
 在春节前因为赶结构样板输出了第一版硬件，BES2300Y 控制触摸和佩戴检测。IQS572 是在生产组装前烧录 firmware, 但 IQS620 是在上电后写入初始化数据，默认的固件是以 60Hz 的频率给出 RDY 信号，在 RDY 为低 (持续 10ms) 的时候写入数据才有效。 单独配置中断触发 BES2300Y 检测 RDY 信号，可以正常触发 BES2300Y (用 GPIO 置反测试)，与 IIC 通讯结合在一起，就出现了异常，死活不能触发中断。在出样前一天晚上折腾了一个通宵，也没搞定，没招，死马当活马医，改成 50ms 定时扫瞄 RDY 信号，佩戴检测偶尔能用，也同样会引起触摸失效，没找到原因，只能先关掉佩戴检测输出样机。</br>
@@ -439,7 +439,7 @@ SPM 对项目的帮助实在有限。一个没有搬过砖的来规划搬砖的�
 </details>
 
 ## Code
-***
+<details>
 @para L431RBIx_HSE_LPUART_DMA_printf.rar Description</br>
 Re-routing of the C library printf function to the LPUART. The LPUART outputs a message on the HyperTerminal.</br>
   -- printf.c</br>
@@ -480,3 +480,9 @@ In order to make the program work, you must do the following: </br>
 -- rebuild all files and load your image into target device </br>
 -- run the code </br>   
 ^_^
+</details>
+
+***
+postscript>
+
+##Apple Airpods Max
