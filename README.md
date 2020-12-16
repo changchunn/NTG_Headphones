@@ -485,3 +485,4 @@ In order to make the program work, you must do the following: </br>
 ***
 
 ## Apple AirPods Max
+在2020即将结束的时候，在12月8号 Apple 的头戴耳机 AirPods Max 发布。
