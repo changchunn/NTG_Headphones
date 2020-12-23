@@ -488,12 +488,14 @@ In order to make the program work, you must do the following: </br>
 在2020即将结束的时候，在12月8号 Apple 的头戴耳机 AirPods Max 发布。</br>
 </br>
 Apple Official Advertisement </br>
+</br>
 &nbsp;&nbsp;&nbsp; . High-fidelity audio </br>
 &nbsp;&nbsp;&nbsp; . Active noise cancellation with transparency mode </br>
 &nbsp;&nbsp;&nbsp; . Spatial audio for threater-like sound that sorrounds you </br>
 &nbsp;&nbsp;&nbsp; . Stunning design with an exceptional fit </br>
 </br>
 Tech Specs </br>
+</br>
 &nbsp;&nbsp;&nbsp;Audio Technology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. apple-designed dynamic driver</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. acitve noise cancellation </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. transparency mode </br>
